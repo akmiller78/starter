@@ -1,0 +1,11 @@
+{:paths ["src"]
+ :deps
+ {org.clojure/clojure                    {:mvn/version "1.9.0"}
+
+  integrant                              {:mvn/version "0.6.3"}
+  integrant/repl                         {:mvn/version "0.3.1"}
+  ataraxy                                {:mvn/version "0.4.0"}
+
+  ring/ring-jetty-adapter                {:mvn/version "1.6.3"}
+  ring/ring-devel                        {:mvn/version "1.6.3"}
+  ring/ring-core                         {:mvn/version "1.6.3"}}}
